@@ -1,0 +1,179 @@
+
+th{
+    color: #f4450b;
+    font-size: larger;
+    letter-spacing: 2px;
+    
+}
+
+h1{
+    
+    text-align: center;
+}
+
+p{
+    font-weight: bold;
+    color: blue;
+    
+}
+
+body{
+    background-color:cadetblue;
+}
+
+.t{
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+ .clear{
+    clear: both;
+}
+
+
+.gamal{
+    height: 300px;
+    width: 250px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    right: 50px;
+    float: left;
+    margin: 20px;
+    background-color: #ffffff;
+    padding: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+table{
+    
+position: relative;
+top: 200px;
+ border-collapse: collapse; 
+
+
+ width: 85%;
+ 
+}
+
+table,td,tr,th {
+    
+    font-weight: 900;
+    left: 25px;
+    padding: 15px;margin: 100px;
+    text-align: center;
+   border: 1px solid #008282; 
+}
+
+.sam{
+  background-image:url('images.png');
+  background-repeat: repeat;
+  opacity: <alphavalue>;
+  background-attachment: scroll;
+  color: black;
+}
+.oppo{
+  background-image: url('oppo.png');
+  background-repeat: repeat;
+  opacity: <alphavalue>;
+  background-attachment: scroll;
+  color: black;
+  
+}
+.huaw{
+  background-image:url('huawei2.jpg');
+  background-repeat: repeat-x;
+  opacity: 0.8;
+  background-attachment: scroll;
+  color: black;
+  
+}
+.xiaomi{
+  background-image:url('download.png');
+  background-repeat: repeat;
+  opacity: <alphavalue>;
+  background-attachment: scroll;
+  color: black;
+  
+}
+
+.iphone{
+  background-image:url('iphone.png');
+  background-repeat: repeat;
+  opacity: <alphavalue>;
+  background-attachment: scroll;
+  color: black;
+  
+}
+.footer{
+    background-color:#061f31;
+    color: #fff;
+    text-align: center;
+    font-family: poppins;
+    height: 250px;
+    margin-top:250px;
+  }
+  .footer.heading h3{
+    font-size: 40px;
+    display: block;
+    color: #fff;
+    text-align: center;
+    max-width: 800px;
+    padding-bottom: 1px;
+    border-bottom: #fff solid 1px;
+    margin: 0 auto;
+    
+    margin-bottom: 30px;
+  }
+  .footer.heading span{
+    font-size: 20px;
+    color: #fff;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+  .footer.heading p{
+     font-size: 20px;
+     color: #fff;
+     display: block;
+     line-height: 30px;
+  }
+  .location li img{
+    border-radius: 50%;
+  }
+  img:hover{
+    width: 50px;
+    height: 50px;
+  }
+  .location li {
+    display: inline;
+  }
+  .face{
+    border-radius: 50%;
+  }
+  .link{
+    color: #fff;
+    display: inline-block;
+  }
+  ul.link {
+    text-align: center;
+     margin-top: 10px;
+   }
+   ul.link li {
+    display: inline-block;
+   }
+   ul.link li a {
+     color: #fff;
+     font-size: 17px;
+     line-height: 27px;
+     padding: 0px 25px;
+     font-weight: 500;
+     text-decoration: none;
+   }
+   ul.link li a:hover {
+     color: rgb(54, 171, 192);
+   }
+   ul.link li.active a {
+    color: #F00;
+   }

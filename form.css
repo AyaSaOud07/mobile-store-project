@@ -1,0 +1,129 @@
+body{
+    background-image: url(iphone.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+   
+}
+form{
+    margin: 100px 50px ;    
+}
+.form{
+    border: 2px solid rgb(192, 188, 188)  ;
+    margin-bottom: 10px;
+    padding: 15px 20px;
+    font-family: poppins;
+    background-color: transparent;
+}
+label{
+    display: inline;
+    margin: 20px;
+    padding: 5px;
+}
+select{
+    background-color: rgb(240 230 229);
+    height: 50px;
+    width: 200px;
+
+}
+
+.send {
+    font-family: poppins;
+    float: left;
+    margin: 10px;
+    display: inline;
+    background:rgb(2,55,87) ;
+    color: rgb(240, 230,229);
+    max-width: 100px;
+    padding: 13px 0px;
+    width: 100%;
+    font-size: 18px;
+}
+.send:hover{
+    background-color: rgb(240 230 229);
+    color: rgb(2,55,87);
+}
+.reset{
+    font-family: poppins;
+    float: left;
+    margin: 10px;
+    display: inline;
+    background:  rgb(2,55,87);
+    color: rgb(240 ,230, 229);
+    max-width: 100px;
+    padding: 13px 0px;
+    width: 100%;
+    font-size: 18px;
+
+}
+.reset:hover{
+    background-color:rgb(240 ,230, 229);
+    color:rgb(2,55,87);
+}
+.footer{
+    background-color:#061f31;
+    color: #fff;
+    text-align: center;
+    font-family: poppins;
+    height: 250px;
+    margin-top:250px;
+  }
+  .footer.heading h3{
+    font-size: 40px;
+    display: block;
+    color: #fff;
+    text-align: center;
+    max-width: 800px;
+    padding-bottom: 1px;
+    border-bottom: #fff solid 1px;
+    margin: 0 auto;
+    
+    margin-bottom: 30px;
+  }
+  .footer.heading span{
+    font-size: 20px;
+    color: #fff;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+  .footer.heading p{
+     font-size: 20px;
+     color: #fff;
+     display: block;
+     line-height: 30px;
+  }
+  .location li img{
+    border-radius: 50%;
+  }
+  img:hover{
+    width: 50px;
+    height: 50px;
+  }
+  .location li {
+    display: inline;
+  }
+  .link{
+    color: #fff;
+    display: inline-block;
+  }
+  ul.link {
+    text-align: center;
+     margin-top: 10px;
+   }
+   ul.link li {
+    display: inline-block;
+   }
+   ul.link li a {
+     color: #fff;
+     font-size: 17px;
+     line-height: 27px;
+     padding: 0px 25px;
+     font-weight: 500;
+     text-decoration: none;
+   }
+   ul.link li a:hover {
+     color: rgb(54, 171, 192);
+   }
+   ul.link li:active a {
+    color: #F00;
+   }
